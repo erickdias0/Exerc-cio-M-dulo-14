@@ -1,0 +1,68 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*
+    .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+      */
+}
+
+.navbar {
+    background-color:#056a8b;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #032b42;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #e6f2ff;
+}
+
+.section-title{
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#sobre-o-rest, #cardapio{
+    background-color:#E9F1FA;
+}
+
+.text-colored{
+    color: #468eb8;
+}
+
+.nav-cardapio .nav-link.active, #contato button{
+    background-color:#468eb8;
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    color:#e15f41;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+
+}
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 200px;
+    }
+}
